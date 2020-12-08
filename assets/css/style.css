@@ -1,0 +1,44 @@
+/*1.font initalize=================*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800;900&family=Karla:wght@200;300;400;500;600;700&family=Major+Mono+Display&display=swap');
+/*2.default========================*/
+*{box-sizing: border-box;}
+html,body{margin: 0; padding: 0; height: 100%; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;}
+h1,h2,h3,h4,h5,h6,ul,p{margin: 0; padding: 0; letter-spacing: 0.3px;  font-family: 'Karla', sans-serif;}
+a{text-decoration: none; outline: 0}
+a:link{text-decoration: none; outline: 0}
+a:active{text-decoration: none; outline: 0; color: #f00}
+a:visited{text-decoration: none; outline: 0}
+a:focus{text-decoration: none; outline: 0}
+a:hover{text-decoration: none; outline: 0}
+p{line-height:1.4;word-wrap:break-word;word-break:break-word;
+ font-family: 'Karla', sans-serif;  font-size: 16px; color: #fff}
+li{list-style-type: none;}
+
+
+/*3.1 logo==================*/
+body{    
+background:linear-gradient(#00000057,#0404047a), url(../img/unnamed.jpg) no-repeat center;
+width: 100%;
+background-size: cover;
+
+}
+
+#headerWrapper{padding: 20px 30px;background: #f2f6ff;}
+.logo{ font-size: 25px;font-weight:600;font-family: 'Karla', sans-serif; font-weight: 700; }
+
+.title h1{ font-size: 60px; text-align: center; padding: 40px 0px; font-weight: 700; color: #fff}
+.HeroSection{ height: 80vh;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+
+}
+.HeroSection a{ font-size: 25px; font-weight:600;font-family: 'Karla', sans-serif; outline: none;}
+
+#createMeeting{background: #00000094;
+    padding: 80px 0px;
+    box-shadow: 0 0 70px #434344;
+
+}
+
+.meeting-link{color: #fff;}
